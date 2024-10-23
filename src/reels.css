@@ -44,7 +44,7 @@ video {
     border-right: 1px solid red;
 }
 .logo1{
-    background-image: url('./src/assets/deb.jpeg');
+    background-image: url('https://images.pexels.com/photos/28926779/pexels-photo-28926779/free-photo-of-romantic-couple-embracing-in-cityscape.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
 }
 .logo2{
     background-image: url('https://images.pexels.com/photos/4321457/pexels-photo-4321457.jpeg?auto=compress&cs=tinysrgb&w=600');
