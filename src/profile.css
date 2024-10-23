@@ -1,0 +1,102 @@
+.profile{
+    color: rgba(255, 255, 255, 0.846);
+    width: calc(100% - 200px);
+    position: relative;
+    left: 200px;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.937);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 900px;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.472);
+}
+
+.profile-header {
+    display: flex;
+    height: 325px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.937);
+}
+.profile-picture{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./src/assets/deb.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgba(255, 0, 153, 0.447);
+}
+
+.profile-info {
+    background-color: rgba(201, 117, 117, 0);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+    background-color: rgba(201, 117, 117, 0);
+}
+
+.profile-info p {
+    margin: 5px 0;
+    background-color: rgba(201, 117, 117, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0095f6;
+    color: rgba(255, 255, 255, 0.823);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bio {
+    margin-bottom: 1px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+.bio p{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.711);
+    border-top: 1px solid rgba(255, 255, 255, 0.636);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.grid-item img {
+    width: 275px;
+    height: 325px;
+    border-radius: 8px;
+}
+img:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,103 @@
+*{
+    background-color: rgba(0, 0, 0, 0.937);
+}
+.home{
+    box-sizing: border-box;
+    padding: 1.2rem;
+    position: absolute;
+    left: 200px;
+    width:calc(100% - 200px);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.937);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.posts{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.username{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+.icon0,.icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid violet;
+    border-right: 1px solid red;
+}
+.icon0{
+    background-image: url('https://images.pexels.com/photos/7958188/pexels-photo-7958188.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.icon1{
+    background-image: url('https://images.pexels.com/photos/28271613/pexels-photo-28271613/free-photo-of-a-car-mirror-is-shown-in-the-side-view-of-a-road.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.icon2{
+    background-image: url('https://images.pexels.com/photos/19288295/pexels-photo-19288295/free-photo-of-chocolate-cake-with-nuts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.icon3{
+    background-image: url('https://images.pexels.com/photos/10084683/pexels-photo-10084683.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.icon4{
+    background-image: url('https://images.pexels.com/photos/12099451/pexels-photo-12099451.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.icon5{
+    background-image: url('https://images.pexels.com/photos/28891907/pexels-photo-28891907/free-photo-of-iconic-roanoke-star-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.icon6{
+    background-image: url('https://images.pexels.com/photos/28678619/pexels-photo-28678619/free-photo-of-refreshing-lime-squeeze-over-bean-soup.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.icon7{
+    background-image: url('https://images.pexels.com/photos/28846994/pexels-photo-28846994/free-photo-of-historic-architecture-of-brussels-grand-place.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.icon8{
+    background-image: url('https://images.pexels.com/photos/18908716/pexels-photo-18908716/free-photo-of-ornamental-pumpkins-a-lantern-and-book-for-halloween-decorations.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.tag0,.tag1,.tag2,.tag3,.tag4,.tag5,.tag6,.tag7,.tag8{
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(130, 146, 238, 0.564);
+}
+.tag0{
+    background-image: url('https://images.pexels.com/photos/23408293/pexels-photo-23408293/free-photo-of-flock-of-seagulls.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.tag1{
+    background-image: url('https://images.pexels.com/photos/15759782/pexels-photo-15759782/free-photo-of-hill-on-sea-coast.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.tag2{
+    background-image: url('https://images.pexels.com/photos/28950862/pexels-photo-28950862/free-photo-of-historic-bell-tower-in-dubrovnik-with-flying-birds.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.tag3{
+    background-image: url('https://images.pexels.com/photos/20351329/pexels-photo-20351329/free-photo-of-roses-and-tulips-on-wedding-table.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.tag4{
+    background-image: url('https://images.pexels.com/photos/19288295/pexels-photo-19288295/free-photo-of-chocolate-cake-with-nuts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.tag5{
+    background-image: url('https://images.pexels.com/photos/28210179/pexels-photo-28210179/free-photo-of-a-mountain-goat-sitting-on-top-of-a-mountain.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.tag6{
+    background-image: url('https://images.pexels.com/photos/28927601/pexels-photo-28927601/free-photo-of-lone-tree-on-hillside-under-moonlit-sky.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.tag7{
+    background-image: url('https://images.pexels.com/photos/28966751/pexels-photo-28966751/free-photo-of-vibrant-butterfly-resting-on-river-rock.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.tag8{
+    background-image: url('https://images.pexels.com/photos/13859705/pexels-photo-13859705.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+

@@ -1,0 +1,63 @@
+.reels{
+    position: absolute;
+    left: 200px;
+    color: white;
+    width: calc(100% - 200px);
+    position: relative;
+    left: 200px;
+    box-sizing: border-box;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.v{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+video {
+    width: 100%; 
+    height: inherit; 
+    background-color: gray; 
+    object-fit: cover;
+    margin-bottom: 1rem; 
+}
+.logo{
+   color: white;
+   height: inherit;
+   display: flex;
+   align-items: end;
+}
+.logo1,.logo2,.logo3,.logo4,.logo5,.logo6{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 25px;
+    border: 1px solid rgb(220, 70, 167);
+    border-right: 1px solid red;
+}
+.logo1{
+    background-image: url('./src/assets/deb.jpeg');
+}
+.logo2{
+    background-image: url('https://images.pexels.com/photos/4321457/pexels-photo-4321457.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+.logo3{
+    background-image: url('https://images.pexels.com/photos/5959193/pexels-photo-5959193.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+.logo4{
+    background-image: url('https://images.pexels.com/photos/20763432/pexels-photo-20763432/free-photo-of-clouds-over-peaks-in-austria.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+.logo5{
+    background-image: url('https://images.pexels.com/photos/19980176/pexels-photo-19980176/free-photo-of-pink-prickly-rose-flower.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+.logo6{
+    background-image: url('https://images.pexels.com/photos/9177492/pexels-photo-9177492.jpeg?auto=compress&cs=tinysrgb&w=600');
+}

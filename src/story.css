@@ -1,0 +1,57 @@
+.story{
+    position: relative;
+    left: 200px;
+    width:calc(100% - 200px);
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.937);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border-bottom: 0.5px solid rgba(240, 248, 255, 0.81);
+}
+h2{
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid violet;
+    border-right: 2px solid red;
+    box-shadow: 1px 1px 1px rgba(238, 130, 238, 0.751);
+}
+.s1{
+    background-image: url('https://images.pexels.com/photos/15759782/pexels-photo-15759782/free-photo-of-hill-on-sea-coast.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.s2{
+    background-image: url('https://images.pexels.com/photos/28950862/pexels-photo-28950862/free-photo-of-historic-bell-tower-in-dubrovnik-with-flying-birds.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.s3{
+    background-image: url('https://images.pexels.com/photos/20351329/pexels-photo-20351329/free-photo-of-roses-and-tulips-on-wedding-table.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.s4{
+    background-image: url('https://images.pexels.com/photos/19288295/pexels-photo-19288295/free-photo-of-chocolate-cake-with-nuts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.s5{
+    background-image: url('https://images.pexels.com/photos/28210179/pexels-photo-28210179/free-photo-of-a-mountain-goat-sitting-on-top-of-a-mountain.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.s6{
+    background-image: url('https://images.pexels.com/photos/28927601/pexels-photo-28927601/free-photo-of-lone-tree-on-hillside-under-moonlit-sky.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.s7{
+    background-image: url('https://images.pexels.com/photos/28966751/pexels-photo-28966751/free-photo-of-vibrant-butterfly-resting-on-river-rock.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.s8{
+    background-image: url('https://images.pexels.com/photos/13859705/pexels-photo-13859705.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
+.s9{
+    background-image: url('https://images.pexels.com/photos/23408293/pexels-photo-23408293/free-photo-of-flock-of-seagulls.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+}
